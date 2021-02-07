@@ -12,6 +12,11 @@ class Brave
 
 end
 
+class Monster
+  attr_reader :name, :offense, :defense
+  attr_accessor :hp
+end
+
 brave = Brave.new(name:"Harika", hp:500, offense:150, defense:100)
 
 puts <<~TEXT
