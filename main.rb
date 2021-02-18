@@ -1,6 +1,6 @@
 class Brave
 
-  attr_reader :name, :offense, :defense
+  attr_reader :offense, :defense
   attr_accessor :hp
 
   SPECIAL_ATTACK_CONSTANT = 1.5
